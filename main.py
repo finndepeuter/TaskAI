@@ -17,7 +17,7 @@ with header:
 
 # implement the container with a title and 3 input fields
 with input:
-    st.header("Choose two words for your puzzle and the result it has to give")
+    st.header("Choose two words for your puzzle to add up and the result it has to give")
     # we ask for the input of the user for the two words to add and the answer it's supposed to give
     first = st.text_input("First word")
     second = st.text_input("Second word")
